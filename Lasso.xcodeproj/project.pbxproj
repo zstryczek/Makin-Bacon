@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFB09621D917BBA00407E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB09611D917BBA00407E36 /* AppDelegate.swift */; };
+		3FFB09641D917BBA00407E36 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB09631D917BBA00407E36 /* GameScene.sks */; };
+		3FFB09661D917BBA00407E36 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB09651D917BBA00407E36 /* GameScene.swift */; };
+		3FFB09681D917BBA00407E36 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB09671D917BBA00407E36 /* GameViewController.swift */; };
+		3FFB096B1D917BBA00407E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB09691D917BBA00407E36 /* Main.storyboard */; };
+		3FFB096D1D917BBA00407E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB096C1D917BBA00407E36 /* Assets.xcassets */; };
+		3FFB09701D917BBA00407E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB096E1D917BBA00407E36 /* LaunchScreen.storyboard */; };
+		3FFB097B1D917BBA00407E36 /* LassoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB097A1D917BBA00407E36 /* LassoTests.swift */; };
+		3FFB09861D917BBA00407E36 /* LassoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB09851D917BBA00407E36 /* LassoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFB09771D917BBA00407E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFB09561D917BBA00407E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFB095D1D917BBA00407E36;
+			remoteInfo = Lasso;
+		};
+		3FFB09821D917BBA00407E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFB09561D917BBA00407E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFB095D1D917BBA00407E36;
+			remoteInfo = Lasso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FFB095E1D917BBA00407E36 /* Lasso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lasso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFB09611D917BBA00407E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFB09631D917BBA00407E36 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3FFB09651D917BBA00407E36 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3FFB09671D917BBA00407E36 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3FFB096A1D917BBA00407E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFB096C1D917BBA00407E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFB096F1D917BBA00407E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFB09711D917BBA00407E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFB09761D917BBA00407E36 /* LassoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LassoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFB097A1D917BBA00407E36 /* LassoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LassoTests.swift; sourceTree = "<group>"; };
+		3FFB097C1D917BBA00407E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFB09811D917BBA00407E36 /* LassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFB09851D917BBA00407E36 /* LassoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LassoUITests.swift; sourceTree = "<group>"; };
+		3FFB09871D917BBA00407E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFB095B1D917BBA00407E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB09731D917BBA00407E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB097E1D917BBA00407E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFB09551D917BBA00407E36 = {
+			isa = PBXGroup;
+			children = (
+				3FFB09601D917BBA00407E36 /* Lasso */,
+				3FFB09791D917BBA00407E36 /* LassoTests */,
+				3FFB09841D917BBA00407E36 /* LassoUITests */,
+				3FFB095F1D917BBA00407E36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFB095F1D917BBA00407E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB095E1D917BBA00407E36 /* Lasso.app */,
+				3FFB09761D917BBA00407E36 /* LassoTests.xctest */,
+				3FFB09811D917BBA00407E36 /* LassoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFB09601D917BBA00407E36 /* Lasso */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB09611D917BBA00407E36 /* AppDelegate.swift */,
+				3FFB09631D917BBA00407E36 /* GameScene.sks */,
+				3FFB09651D917BBA00407E36 /* GameScene.swift */,
+				3FFB09671D917BBA00407E36 /* GameViewController.swift */,
+				3FFB09691D917BBA00407E36 /* Main.storyboard */,
+				3FFB096C1D917BBA00407E36 /* Assets.xcassets */,
+				3FFB096E1D917BBA00407E36 /* LaunchScreen.storyboard */,
+				3FFB09711D917BBA00407E36 /* Info.plist */,
+			);
+			path = Lasso;
+			sourceTree = "<group>";
+		};
+		3FFB09791D917BBA00407E36 /* LassoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB097A1D917BBA00407E36 /* LassoTests.swift */,
+				3FFB097C1D917BBA00407E36 /* Info.plist */,
+			);
+			path = LassoTests;
+			sourceTree = "<group>";
+		};
+		3FFB09841D917BBA00407E36 /* LassoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB09851D917BBA00407E36 /* LassoUITests.swift */,
+				3FFB09871D917BBA00407E36 /* Info.plist */,
+			);
+			path = LassoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFB095D1D917BBA00407E36 /* Lasso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFB098A1D917BBA00407E36 /* Build configuration list for PBXNativeTarget "Lasso" */;
+			buildPhases = (
+				3FFB095A1D917BBA00407E36 /* Sources */,
+				3FFB095B1D917BBA00407E36 /* Frameworks */,
+				3FFB095C1D917BBA00407E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lasso;
+			productName = Lasso;
+			productReference = 3FFB095E1D917BBA00407E36 /* Lasso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFB09751D917BBA00407E36 /* LassoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFB098D1D917BBA00407E36 /* Build configuration list for PBXNativeTarget "LassoTests" */;
+			buildPhases = (
+				3FFB09721D917BBA00407E36 /* Sources */,
+				3FFB09731D917BBA00407E36 /* Frameworks */,
+				3FFB09741D917BBA00407E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFB09781D917BBA00407E36 /* PBXTargetDependency */,
+			);
+			name = LassoTests;
+			productName = LassoTests;
+			productReference = 3FFB09761D917BBA00407E36 /* LassoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FFB09801D917BBA00407E36 /* LassoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFB09901D917BBA00407E36 /* Build configuration list for PBXNativeTarget "LassoUITests" */;
+			buildPhases = (
+				3FFB097D1D917BBA00407E36 /* Sources */,
+				3FFB097E1D917BBA00407E36 /* Frameworks */,
+				3FFB097F1D917BBA00407E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFB09831D917BBA00407E36 /* PBXTargetDependency */,
+			);
+			name = LassoUITests;
+			productName = LassoUITests;
+			productReference = 3FFB09811D917BBA00407E36 /* LassoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFB09561D917BBA00407E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zstryapps;
+				TargetAttributes = {
+					3FFB095D1D917BBA00407E36 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3FFB09751D917BBA00407E36 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3FFB095D1D917BBA00407E36;
+					};
+					3FFB09801D917BBA00407E36 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3FFB095D1D917BBA00407E36;
+					};
+				};
+			};
+			buildConfigurationList = 3FFB09591D917BBA00407E36 /* Build configuration list for PBXProject "Lasso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFB09551D917BBA00407E36;
+			productRefGroup = 3FFB095F1D917BBA00407E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFB095D1D917BBA00407E36 /* Lasso */,
+				3FFB09751D917BBA00407E36 /* LassoTests */,
+				3FFB09801D917BBA00407E36 /* LassoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFB095C1D917BBA00407E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB09641D917BBA00407E36 /* GameScene.sks in Resources */,
+				3FFB09701D917BBA00407E36 /* LaunchScreen.storyboard in Resources */,
+				3FFB096D1D917BBA00407E36 /* Assets.xcassets in Resources */,
+				3FFB096B1D917BBA00407E36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB09741D917BBA00407E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB097F1D917BBA00407E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFB095A1D917BBA00407E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB09661D917BBA00407E36 /* GameScene.swift in Sources */,
+				3FFB09681D917BBA00407E36 /* GameViewController.swift in Sources */,
+				3FFB09621D917BBA00407E36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB09721D917BBA00407E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB097B1D917BBA00407E36 /* LassoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB097D1D917BBA00407E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB09861D917BBA00407E36 /* LassoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFB09781D917BBA00407E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFB095D1D917BBA00407E36 /* Lasso */;
+			targetProxy = 3FFB09771D917BBA00407E36 /* PBXContainerItemProxy */;
+		};
+		3FFB09831D917BBA00407E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFB095D1D917BBA00407E36 /* Lasso */;
+			targetProxy = 3FFB09821D917BBA00407E36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FFB09691D917BBA00407E36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFB096A1D917BBA00407E36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFB096E1D917BBA00407E36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFB096F1D917BBA00407E36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFB09881D917BBA00407E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FFB09891D917BBA00407E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFB098B1D917BBA00407E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lasso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSA.Lasso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFB098C1D917BBA00407E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lasso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSA.Lasso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FFB098E1D917BBA00407E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = LassoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lasso.app/Lasso";
+			};
+			name = Debug;
+		};
+		3FFB098F1D917BBA00407E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LassoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lasso.app/Lasso";
+			};
+			name = Release;
+		};
+		3FFB09911D917BBA00407E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = LassoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lasso;
+			};
+			name = Debug;
+		};
+		3FFB09921D917BBA00407E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LassoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lasso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFB09591D917BBA00407E36 /* Build configuration list for PBXProject "Lasso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFB09881D917BBA00407E36 /* Debug */,
+				3FFB09891D917BBA00407E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFB098A1D917BBA00407E36 /* Build configuration list for PBXNativeTarget "Lasso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFB098B1D917BBA00407E36 /* Debug */,
+				3FFB098C1D917BBA00407E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FFB098D1D917BBA00407E36 /* Build configuration list for PBXNativeTarget "LassoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFB098E1D917BBA00407E36 /* Debug */,
+				3FFB098F1D917BBA00407E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FFB09901D917BBA00407E36 /* Build configuration list for PBXNativeTarget "LassoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFB09911D917BBA00407E36 /* Debug */,
+				3FFB09921D917BBA00407E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFB09561D917BBA00407E36 /* Project object */;
+}
