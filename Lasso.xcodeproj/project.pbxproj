@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F35F01D1D9E9FB30069460B /* Pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F35F01C1D9E9FB30069460B /* Pixel.ttf */; };
+		3F5D447A1DAE8FB100AA8073 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D44791DAE8FB100AA8073 /* LaunchScreenViewController.swift */; };
+		3F5D447C1DAFD35B00AA8073 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5D447B1DAFD35B00AA8073 /* GoogleMobileAds.framework */; };
+		3F5D447E1DAFD38B00AA8073 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D447D1DAFD38B00AA8073 /* GoogleService-Info.plist */; };
+		3F6358481DAD40E10089C2B3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6358471DAD40E10089C2B3 /* GameKit.framework */; };
 		3FFB09621D917BBA00407E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB09611D917BBA00407E36 /* AppDelegate.swift */; };
 		3FFB09641D917BBA00407E36 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB09631D917BBA00407E36 /* GameScene.sks */; };
 		3FFB09661D917BBA00407E36 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB09651D917BBA00407E36 /* GameScene.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F35F01C1D9E9FB30069460B /* Pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel.ttf; sourceTree = "<group>"; };
+		3F5D44791DAE8FB100AA8073 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		3F5D447B1DAFD35B00AA8073 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		3F5D447D1DAFD38B00AA8073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F6358471DAD40E10089C2B3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		3FFB095E1D917BBA00407E36 /* Lasso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lasso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFB09611D917BBA00407E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFB09631D917BBA00407E36 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -58,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5D447C1DAFD35B00AA8073 /* GoogleMobileAds.framework in Frameworks */,
+				3F6358481DAD40E10089C2B3 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F6358461DAD40E10089C2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6358471DAD40E10089C2B3 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FFB09551D917BBA00407E36 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,7 @@
 				3FFB09791D917BBA00407E36 /* LassoTests */,
 				3FFB09841D917BBA00407E36 /* LassoUITests */,
 				3FFB095F1D917BBA00407E36 /* Products */,
+				3F6358461DAD40E10089C2B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +122,18 @@
 		3FFB09601D917BBA00407E36 /* Lasso */ = {
 			isa = PBXGroup;
 			children = (
+				3F5D447D1DAFD38B00AA8073 /* GoogleService-Info.plist */,
+				3F5D447B1DAFD35B00AA8073 /* GoogleMobileAds.framework */,
 				3FFB09611D917BBA00407E36 /* AppDelegate.swift */,
 				3FFB09631D917BBA00407E36 /* GameScene.sks */,
 				3FFB09651D917BBA00407E36 /* GameScene.swift */,
 				3FFB09671D917BBA00407E36 /* GameViewController.swift */,
+				3F5D44791DAE8FB100AA8073 /* LaunchScreenViewController.swift */,
 				3FFB09691D917BBA00407E36 /* Main.storyboard */,
 				3FFB096C1D917BBA00407E36 /* Assets.xcassets */,
 				3FFB096E1D917BBA00407E36 /* LaunchScreen.storyboard */,
 				3FFB09711D917BBA00407E36 /* Info.plist */,
+				3F35F01C1D9E9FB30069460B /* Pixel.ttf */,
 			);
 			path = Lasso;
 			sourceTree = "<group>";
@@ -194,18 +219,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = zstryapps;
 				TargetAttributes = {
 					3FFB095D1D917BBA00407E36 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 662W7T2LYN;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					3FFB09751D917BBA00407E36 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3FFB095D1D917BBA00407E36;
 					};
 					3FFB09801D917BBA00407E36 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3FFB095D1D917BBA00407E36;
 					};
 				};
@@ -236,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFB09641D917BBA00407E36 /* GameScene.sks in Resources */,
+				3F35F01D1D9E9FB30069460B /* Pixel.ttf in Resources */,
 				3FFB09701D917BBA00407E36 /* LaunchScreen.storyboard in Resources */,
 				3FFB096D1D917BBA00407E36 /* Assets.xcassets in Resources */,
 				3FFB096B1D917BBA00407E36 /* Main.storyboard in Resources */,
+				3F5D447E1DAFD38B00AA8073 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +301,7 @@
 			files = (
 				3FFB09661D917BBA00407E36 /* GameScene.swift in Sources */,
 				3FFB09681D917BBA00407E36 /* GameViewController.swift in Sources */,
+				3F5D447A1DAE8FB100AA8073 /* LaunchScreenViewController.swift in Sources */,
 				3FFB09621D917BBA00407E36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,8 +371,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -357,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -380,8 +419,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -397,9 +438,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,10 +451,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 662W7T2LYN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lasso",
+				);
 				INFOPLIST_FILE = Lasso/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSA.Lasso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,10 +473,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 662W7T2LYN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lasso",
+				);
 				INFOPLIST_FILE = Lasso/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSA.Lasso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -436,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lasso.app/Lasso";
 			};
 			name = Debug;
@@ -448,6 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lasso.app/Lasso";
 			};
 			name = Release;
@@ -460,6 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Lasso;
 			};
 			name = Debug;
@@ -471,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSA.LassoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Lasso;
 			};
 			name = Release;
@@ -494,6 +562,7 @@
 				3FFB098C1D917BBA00407E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFB098D1D917BBA00407E36 /* Build configuration list for PBXNativeTarget "LassoTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +571,7 @@
 				3FFB098F1D917BBA00407E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFB09901D917BBA00407E36 /* Build configuration list for PBXNativeTarget "LassoUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +580,7 @@
 				3FFB09921D917BBA00407E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
